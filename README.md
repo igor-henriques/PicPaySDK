@@ -74,4 +74,4 @@ public async Task<PaymentCancellationResponse> CancelPurchaseAsync(string refere
 
 All methods allows CancellationToken as overload</br>
 
-You can see a full implementation of this SDK here https://github.com/igor-henriques/PicPayAPI
+[You can see a full implementation of this SDK here](https://github.com/igor-henriques/PicPayAPI/tree/master/PicPayAPI)

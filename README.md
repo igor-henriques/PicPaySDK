@@ -23,6 +23,10 @@ public class Foo()
 
 If you are working with dependency injection, is possible to inject a HttpClient to a service class, like:
 ``` C#
+builder.Services.AddHttpClient<PicPayService>();
+```
+
+``` C#
 public class PicPayService : IPicPayService
 {
     private readonly PicPayClient client;

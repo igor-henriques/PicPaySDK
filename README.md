@@ -66,3 +66,4 @@ public async Task<PaymentCancellationResponse> CancelPurchaseAsync(string refere
     return await client.Payment.CancelPurchaseAsync(referenceId, authorizationId);
 }
 ```
+Tip: All methods allows CancellationToken as overload
